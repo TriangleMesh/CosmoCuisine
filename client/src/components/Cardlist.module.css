@@ -1,0 +1,12 @@
+.cardList {
+    height: 400px;
+    width: auto; /* Adjust this width as needed to fit three cards */
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    flex-wrap: wrap; /* Allow children to wrap to the next line */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
